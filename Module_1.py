@@ -54,7 +54,7 @@ for file in data.iterdir():
 if combinedData:
 
     result=pd.concat(combinedData, ignore_index=True)
-    result.to_excel("my_data.xlsx")
+    result.to_excel("books_og.xlsx")
 
     print("Added succesfully")
 

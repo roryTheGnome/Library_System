@@ -1,8 +1,6 @@
-import re
-import json
 import pandas as pd
 
-books=pd.read_excel('my_data.xlsx')
+books=pd.read_excel('books_og.xlsx')
 #print(books.head(3)) #here for checking
 
 #- Remove columns that contain “internal” in their name.
