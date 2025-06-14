@@ -17,9 +17,7 @@ valid_divs = {
 }
 
 def is_valid_subject(subject):
-    # lowercase subject for matching
     s = subject.lower()
-    # check if any whitelist keyword is found in subject string
     return any(genre in s for genre in valid_divs)
 
 #I choossed Open lib to work with
@@ -53,7 +51,7 @@ for i, row in books.iterrows():
         if not matched:
             print(f"Upsi dupsi there is no matchy {title}")
             continue
-#**************************************************************
+
         work_key = matched.get('key')
         if not work_key:
             print("No key ?!?")
@@ -73,7 +71,7 @@ for i, row in books.iterrows():
         subjects = work_data.get('subjects', [])
 
         if subjects:
-            #code grabed un releated data as well as the division data so i created possible answers and look for a match
+
             filtered_subjects = [s for s in subjects if is_valid_subject(s)]
 
             if filtered_subjects:
