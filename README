@@ -1,0 +1,8 @@
+Few things I like to mentioned about my solution:
+- I mentioned installs i get during the modules (if i already pip'ed one for a module i did not re-mentioned it)
+- I also added some notes and guidelines (mostly for myself) in the code and in the end of the files
+- I didn't write all modules in one file but write them in different files with different output files
+(like books,books_og, etc) to make debugging and reading easier
+- I kinda enjoyed doing it hope you also enjoy reading it
+- Here is a playlist to listen while reading the project:
+        https://open.spotify.com/playlist/3nTgPqow43xVw4r9r1KxHR?si=84f5ab13758647a0

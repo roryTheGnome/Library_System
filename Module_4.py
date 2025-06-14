@@ -54,6 +54,13 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 """"
+              ***TODO LIST***
+- All books by a given author 
+- All loaded books 
+- All books containing a given word in the title 
+"""
+
+""""
 Example URL's: 
 
 http://127.0.0.1:5000/books
